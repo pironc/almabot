@@ -15,6 +15,7 @@ async def on_ready():
 
 @client.command()
 async def alma(ctx):
+    # This is the URL used by the "html_content" call (cf. next lines) and to retrieve HTML content afterwards
     url="http://www.krosmoz.com/fr/almanax"
 
     # Make a GET request to fetch the raw HTML content
