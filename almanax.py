@@ -34,4 +34,4 @@ async def alma(ctx):
     await ctx.send("```Almanax : {}``````Bonus : {}```".format(offrande.text.strip().partition(".")[0], bonus.text.strip().partition(".")[0]))
 
 # You will need to have a bot and it's token, and just simply put it in the quotes
-#client.run('Enter your bot token here')
+client.run('Enter your bot token here')
